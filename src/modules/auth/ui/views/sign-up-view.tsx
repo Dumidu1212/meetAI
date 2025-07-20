@@ -80,7 +80,7 @@ export const SignUpView = () => {
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="p-6 md:p-8">
               <div className="flex flex-col gap-6">
-                <div className="flrx flex-col items-center text-center">
+                <div className="flex flex-col items-center text-center">
                   <h1 className="text-2xl font-bold">
                     Let&apos;s get started
                   </h1>
@@ -203,7 +203,7 @@ export const SignUpView = () => {
                 <div className="text-center text-sm">
                   Already have an account?{" "} 
                   <Link href="/sign-in" className="underline underline-offset-4">
-                    Sign in
+                    Sign up
                   </Link>
                 </div>
               </div>
